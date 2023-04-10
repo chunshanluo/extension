@@ -1,7 +1,4 @@
-
 refreshEconomist();
-
-
 /**
  * Cannot refresh here, because economist will check user after page loaded.
  * So this function must be used after page complete.
@@ -14,7 +11,7 @@ function refreshEconomist() {
         parts[0].insertAdjacentHTML('afterend', found[1]); 
     });
     
-    console.log("refreshed");
+    console.log("content refreshed");
 
 }
 
